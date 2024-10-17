@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentScoreTxt: {fileID: 232291852}
-  HighScoreTxt: {fileID: 495599964}
+  highScoreTxt: {fileID: 495599964}
   fuelSlider: {fileID: 1468115298}
 --- !u!1001 &172797619
 PrefabInstance:
@@ -4169,19 +4169,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468115296}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1701220262}
   - {fileID: 1797389136}
   - {fileID: 1487757063}
   m_Father: {fileID: 552998547}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 317, y: -308}
+  m_AnchoredPosition: {x: -0.00001049, y: -113}
   m_SizeDelta: {x: 291.7264, y: 99.6485}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1468115298
