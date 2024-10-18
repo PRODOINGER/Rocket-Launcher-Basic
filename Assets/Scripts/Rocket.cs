@@ -25,10 +25,13 @@ public class Rocket : MonoBehaviour
         dashboard.InitializeFuelSlider(energySystem.GetFuel());
     }
 
+
+
     void Update()
     {
-        dashboard.UpdateScore(transform.position.y);
-        dashboard.UpdateHighScore(transform.position.y);
+        float adjustedScore = transform.position.y - 0.5f;
+        dashboard.UpdateScore(adjustedScore);
+        dashboard.UpdateHighScore(adjustedScore);
         energySystem.RecoverFuel();
         dashboard.UpdateFuelSlider(energySystem.GetFuel());
     }

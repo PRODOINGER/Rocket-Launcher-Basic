@@ -20,12 +20,12 @@ public class RocketDashboard
 
     public void InitializeHighScore()
     {
-        highScoreTxt.text = $"High Score: {highScore:F1} M";
+        highScoreTxt.text = $"High Score {highScore:F1} M";
     }
 
     public void UpdateScore(float currentScore)
     {
-        currentScoreTxt.text = $"Score: {currentScore:F1} M";
+        currentScoreTxt.text = $"Score {currentScore:F1} M";
     }
 
     public void UpdateHighScore(float currentScore)
